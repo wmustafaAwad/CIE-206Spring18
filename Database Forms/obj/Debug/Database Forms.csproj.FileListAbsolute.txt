@@ -1,0 +1,40 @@
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\bin\Debug\Database Forms.exe.config
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\bin\Debug\Database Forms.exe
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\bin\Debug\Database Forms.pdb
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.LoginForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ManagerForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.Properties.Resources.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database Forms.csproj.GenerateResource.Cache
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database Forms.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database Forms.exe
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database Forms.pdb
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.CashierPersonForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.CashierAddCustomerForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.CashierCustomerForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ChefForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.MenuItemsForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.SupplierInsertionForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.EmployeeInsertionForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.SupplyInsertionForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.BranchInsertionForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.WarehouseInsertionForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.SupervisorForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.MostUsedItemMenuStripForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.TotalIncomeMenuStripForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ActiveCustomersForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.EmployeeSearchForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.EmployeeUpdateForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ItemByNamePopularityForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ItemsbyPopularityForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.OrderListForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ShowWarehouseSupplierTransaction.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ShowBranchWarehouseTransactionForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.AddWarehouseSupplierTransaction.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.AddBranchWarehouseTransaction.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.UpdateCustomerForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.AddMenuItemForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ChangePasswordForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.SignupForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database Forms.csprojResolveAssemblyReference.cache
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.ItemContentsForm.resources
+C:\Users\ahmed\source\repos\Database Forms\Database Forms\obj\Debug\Database_Forms.AddItemIngredientForm.resources
