@@ -14,6 +14,7 @@ Cashier: Whose job is to add/remove orders and customers
 
 Manager: The Restaurant Owner, who can view various kinds of statistical data (eg:most ordered menu items, view popularity of all menu items, view all customers list with Phone and address..etc).
 You can find the link to our presentation here: https://drive.google.com/file/d/1S172-I5vaZNVwDh_39fQyt_7KCfjiJYP/view?usp=sharing
+
 |--------------------------Technical Description------------------------------|
 
 The Project Consisted of two related sections:
