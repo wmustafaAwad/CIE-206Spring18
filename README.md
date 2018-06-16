@@ -26,6 +26,8 @@ The Project Consisted of two related sections:
 
 Tables Created Using SQL Server Management Studio with Data That we made-up to simulate a real-life case.
 SQL queries integrate into the second part.
+
+
 2- GUI:
 
 Interactive Inteface made using C# Forms.
