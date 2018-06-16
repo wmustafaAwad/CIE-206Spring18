@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6EE972F-5488-4637-9BEF-27B43937C7BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Database_Forms</RootNamespace>
+    <AssemblyName>Database Forms</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveCustomersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveCustomersForm.Designer.cs">
+      <DependentUpon>ActiveCustomersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddItemIngredientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItemIngredientForm.Designer.cs">
+      <DependentUpon>AddItemIngredientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMenuItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMenuItemForm.Designer.cs">
+      <DependentUpon>AddMenuItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddWarehouseSupplierTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddWarehouseSupplierTransaction.Designer.cs">
+      <DependentUpon>AddWarehouseSupplierTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BranchInsertionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchInsertionForm.Designer.cs">
+      <DependentUpon>BranchInsertionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddBranchWarehouseTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBranchWarehouseTransaction.Designer.cs">
+      <DependentUpon>AddBranchWarehouseTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierAddCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierAddCustomerForm.Designer.cs">
+      <DependentUpon>CashierAddCustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierCustomerForm.Designer.cs">
+      <DependentUpon>CashierCustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierPersonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierPersonForm.Designer.cs">
+      <DependentUpon>CashierPersonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change Password Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change Password Form.Designer.cs">
+      <DependentUpon>Change Password Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChefForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChefForm.Designer.cs">
+      <DependentUpon>ChefForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller.cs" />
+    <Compile Include="DBManager.cs" />
+    <Compile Include="EmployeeInsertionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeInsertionForm.Designer.cs">
+      <DependentUpon>EmployeeInsertionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSearchForm.Designer.cs">
+      <DependentUpon>EmployeeSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeUpdateForm.Designer.cs">
+      <DependentUpon>EmployeeUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemByNamePopularityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemByNamePopularityForm.Designer.cs">
+      <DependentUpon>ItemByNamePopularityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemContentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemContentsForm.Designer.cs">
+      <DependentUpon>ItemContentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsbyPopularityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemsbyPopularityForm.Designer.cs">
+      <DependentUpon>ItemsbyPopularityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuItemsForm.Designer.cs">
+      <DependentUpon>MenuItemsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderListForm.Designer.cs">
+      <DependentUpon>OrderListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectDataSet.cs">
+      <DependentUpon>ProjectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowBranchWarehouseTransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowBranchWarehouseTransactionForm.Designer.cs">
+      <DependentUpon>ShowBranchWarehouseTransactionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signup Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup Form.Designer.cs">
+      <DependentUpon>Signup Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupervisorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupervisorForm.Designer.cs">
+      <DependentUpon>SupervisorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierInsertionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierInsertionForm.Designer.cs">
+      <DependentUpon>SupplierInsertionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostUsedItemMenuStripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostUsedItemMenuStripForm.Designer.cs">
+      <DependentUpon>MostUsedItemMenuStripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplyInsertionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplyInsertionForm.Designer.cs">
+      <DependentUpon>SupplyInsertionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TotalIncomeMenuStripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotalIncomeMenuStripForm.Designer.cs">
+      <DependentUpon>TotalIncomeMenuStripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCustomerForm.Designer.cs">
+      <DependentUpon>UpdateCustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseInsertionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseInsertionForm.Designer.cs">
+      <DependentUpon>WarehouseInsertionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowWarehouseSupplierTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowWarehouseSupplierTransaction.Designer.cs">
+      <DependentUpon>ShowWarehouseSupplierTransaction.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActiveCustomersForm.resx">
+      <DependentUpon>ActiveCustomersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddItemIngredientForm.resx">
+      <DependentUpon>AddItemIngredientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMenuItemForm.resx">
+      <DependentUpon>AddMenuItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddWarehouseSupplierTransaction.resx">
+      <DependentUpon>AddWarehouseSupplierTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchInsertionForm.resx">
+      <DependentUpon>BranchInsertionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBranchWarehouseTransaction.resx">
+      <DependentUpon>AddBranchWarehouseTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierAddCustomerForm.resx">
+      <DependentUpon>CashierAddCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierCustomerForm.resx">
+      <DependentUpon>CashierCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierPersonForm.resx">
+      <DependentUpon>CashierPersonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change Password Form.resx">
+      <DependentUpon>Change Password Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChefForm.resx">
+      <DependentUpon>ChefForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeInsertionForm.resx">
+      <DependentUpon>EmployeeInsertionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSearchForm.resx">
+      <DependentUpon>EmployeeSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeUpdateForm.resx">
+      <DependentUpon>EmployeeUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemByNamePopularityForm.resx">
+      <DependentUpon>ItemByNamePopularityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemContentsForm.resx">
+      <DependentUpon>ItemContentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemsbyPopularityForm.resx">
+      <DependentUpon>ItemsbyPopularityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuItemsForm.resx">
+      <DependentUpon>MenuItemsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderListForm.resx">
+      <DependentUpon>OrderListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ShowBranchWarehouseTransactionForm.resx">
+      <DependentUpon>ShowBranchWarehouseTransactionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup Form.resx">
+      <DependentUpon>Signup Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorForm.resx">
+      <DependentUpon>SupervisorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierInsertionForm.resx">
+      <DependentUpon>SupplierInsertionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostUsedItemMenuStripForm.resx">
+      <DependentUpon>MostUsedItemMenuStripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplyInsertionForm.resx">
+      <DependentUpon>SupplyInsertionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalIncomeMenuStripForm.resx">
+      <DependentUpon>TotalIncomeMenuStripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCustomerForm.resx">
+      <DependentUpon>UpdateCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseInsertionForm.resx">
+      <DependentUpon>WarehouseInsertionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowWarehouseSupplierTransaction.resx">
+      <DependentUpon>ShowWarehouseSupplierTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ProjectDataSet.xsc">
+      <DependentUpon>ProjectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectDataSet.xss">
+      <DependentUpon>ProjectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
